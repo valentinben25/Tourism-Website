@@ -6,6 +6,35 @@
     --dark: #757575;
 }
 
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Ограничава ширината на изображения в carousel */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Уверява се, че .container не излиза извън граници */
+.container, .container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .project-item {
+        margin-right: 0 !important;
+    }
+}
+
 .bg-primary {
     background-color: #28a745 !important; /* зелено */
 }
@@ -195,6 +224,11 @@
 .carousel-control-prev,
 .carousel-control-next {
     width: 15%;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
 }
 
 .carousel-control-prev-icon,
