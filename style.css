@@ -1,0 +1,7 @@
+ body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+.container { max-width: 1000px; margin: 0 auto; padding: 2em; background: white; }
+h1 { text-align: center; color: #2c3e50; }
+.destination { margin-bottom: 2em; border-bottom: 1px solid #ccc; padding-bottom: 1em; }
+.destination img { max-width: 100%; border-radius: 8px; margin-bottom: 1em; }
+.destination h2 { margin-top: 0; color: #2980b9; }
+.destination p { color: #444; }
