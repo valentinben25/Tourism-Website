@@ -7,8 +7,9 @@
 }
 
 
-.link-active {
-color: #28a745;
+a {
+    color: #16a500;
+    text-decoration: none;
 }
 
 html, body {
