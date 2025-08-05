@@ -7,6 +7,10 @@
 }
 
 
+link-active {
+color: #28a745;
+}
+
 html, body {
     overflow-x: hidden;
 }
